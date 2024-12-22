@@ -1,0 +1,32 @@
+{
+  "name": "kaadon/currency_layer",
+  "type": "library",
+  "description": "Currency Layer LIBRARY for PHP",
+  "keywords": [
+    "currency",
+    "kaadon"
+  ],
+  "homepage": "https://developer.kaadon.com",
+  "license": "Apache-2.0",
+  "require": {
+    "PHP": ">=8.1",
+    "ext-curl": "*",
+    "kaadon/helper": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "authors": [
+    {
+      "name": "kaadon",
+      "email": "kaadon.com@gmail.com",
+      "homepage": "https://www.kaadon.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Kaadon\\CurrencyLayer\\": "src",
+      "Kaadon\\Test\\": "test"
+    }
+  }
+}
